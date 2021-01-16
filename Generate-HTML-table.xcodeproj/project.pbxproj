@@ -12,18 +12,20 @@
 		20605FAE25B21E5100BC909C /* TableHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 20605FAD25B21E5100BC909C /* TableHTML.m */; };
 		20E49FAC25B265F2007E6F41 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E49FAB25B265F2007E6F41 /* Rectangle.m */; };
 		20E49FEC25B281A9007E6F41 /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 20E49FB025B27DB1007E6F41 /* input.txt */; };
-		20E4A00225B29C30007E6F41 /* output.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 20E49FF025B292D7007E6F41 /* output.txt */; };
+		20E4A00925B2BE38007E6F41 /* input.txt in Copy Files */ = {isa = PBXBuildFile; fileRef = 20E49FB025B27DB1007E6F41 /* input.txt */; };
+		20E4A00E25B2BE64007E6F41 /* input.txt in Resources */ = {isa = PBXBuildFile; fileRef = 20E49FB025B27DB1007E6F41 /* input.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		20605F9B25B2038D00BC909C /* CopyFiles */ = {
+		20605F9B25B2038D00BC909C /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
 			dstPath = usr/share/man/man1;
 			dstSubfolderSpec = 16;
 			files = (
-				20E4A00225B29C30007E6F41 /* output.txt in CopyFiles */,
+				20E4A00925B2BE38007E6F41 /* input.txt in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		20E49FEB25B281A3007E6F41 /* CopyFiles */ = {
@@ -48,7 +50,6 @@
 		20E49FAA25B265F2007E6F41 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 		20E49FAB25B265F2007E6F41 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 		20E49FB025B27DB1007E6F41 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
-		20E49FF025B292D7007E6F41 /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				20E49FB025B27DB1007E6F41 /* input.txt */,
-				20E49FF025B292D7007E6F41 /* output.txt */,
 				20605FA025B2038D00BC909C /* main.m */,
 				20605FAC25B21E5100BC909C /* TableHTML.h */,
 				20605FAD25B21E5100BC909C /* TableHTML.m */,
@@ -103,8 +103,9 @@
 			buildPhases = (
 				20605F9925B2038D00BC909C /* Sources */,
 				20605F9A25B2038D00BC909C /* Frameworks */,
-				20605F9B25B2038D00BC909C /* CopyFiles */,
+				20605F9B25B2038D00BC909C /* Copy Files */,
 				20E49FEB25B281A3007E6F41 /* CopyFiles */,
+				20E4A00B25B2BE5F007E6F41 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +146,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20E4A00B25B2BE5F007E6F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E4A00E25B2BE64007E6F41 /* input.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20605F9925B2038D00BC909C /* Sources */ = {

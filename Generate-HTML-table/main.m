@@ -20,7 +20,6 @@ int main(int argc, const char * argv[]) {
         NSMutableArray *rectangles = getRectanglesFromFile();
         TableHTML *htmlTable = paintTableCellsAccordingToRectangles(rectangles);
         [htmlTable printHTMLCode];
-//        [htmlTable writeHTMLCodeToFile];
     }
     return 0;
 }
